@@ -31,6 +31,6 @@ classDiagram
         nome: String
     }
 
-    Jogo --* Console
-    Jogo *-- Categoria
+    Jogo --> Console
+    Jogo --> Categoria
 ```
